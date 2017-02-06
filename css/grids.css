@@ -1,0 +1,27 @@
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+[class^='col-'] {
+	float: left;
+}
+
+
+.grid::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.col-12of12{
+	width:100%;
+}
+
+
+
+
+
