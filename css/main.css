@@ -45,7 +45,7 @@ a:active, a:hover, a:focus {
   color: black;
   font-size: 1rem;
   line-height: 2em;
-  padding: 3rem 1.3rem;
+  padding: 1.25rem 1.3rem 0 1.3rem;
   text-decoration: none;
 }
 
@@ -73,7 +73,12 @@ figure {
 
 .logo {
 	width: 50%;
-	padding: 3rem 2rem 3rem 3rem;
+	padding: 0 2rem 0 3rem;
+}
+
+#header {
+  padding: 3rem 0 7rem 0;
+
 }
 
 
