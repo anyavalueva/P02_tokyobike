@@ -81,6 +81,15 @@ figure {
 
 }
 
+.product-picture {
+  display: block;
+  margin: auto;
+}
+
+.product-caption {
+  text-align: center;
+}
+
 
 
 
