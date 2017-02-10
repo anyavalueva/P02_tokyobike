@@ -6,15 +6,14 @@
 }
 
 
-[class^='col-'] {
-	float: left;
-}
-
-
 .grid::after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+[class^='col-'] {
+	float: left;
 }
 
 .col-12of12{
@@ -25,8 +24,16 @@
 	width:66.6%;
 }
 
+.col-7of12{
+	width:58.3%;
+}
+
 .col-6of12{
 	width:50%;
+}
+
+.col-5of12{
+	width:41.6%;
 }
 
 .col-4of12{
