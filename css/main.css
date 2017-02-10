@@ -29,13 +29,13 @@ p  {
 }
 
 a {
-  color: rgb(253,106,79);
+  color: rgb(112,128,144);
   text-decoration: none; 
   transition: color 0.3s;
 }
 
 a:active, a:hover, a:focus {
-  color: rgb(112,128,144);
+	color: rgb(253,106,79);
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:active, a:hover, a:focus {
 
 img {
 	height: auto; 
-	max-width: 50%;
+	max-width: 100%;
 }
 
 
@@ -69,6 +69,11 @@ figure {
 
 .homepage-picture {
   position: absolute;
+}
+
+.logo {
+	width: 40%;
+	padding: 1rem 2rem;
 }
 
 
