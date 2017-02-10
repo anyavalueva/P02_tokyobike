@@ -18,7 +18,7 @@ h2 {
 
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin-bottom: 0;
 }
 
@@ -36,7 +36,7 @@ a {
 
 a:active, a:hover, a:focus {
 	color: rgb(253,106,79);
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 
@@ -78,6 +78,12 @@ figure {
 
 #header {
   padding: 3rem 0 7rem 0;
+
+}
+
+.city {
+	margin-bottom: 3rem;
+	color: rgb(253,106,79);
 
 }
 
