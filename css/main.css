@@ -28,14 +28,24 @@ p  {
   line-height: 1.5em;
 }
 
+a {
+  color: rgb(253,106,79);
+  text-decoration: none; 
+  transition: color 0.3s;
+}
+
+a:active, a:hover, a:focus {
+  color: rgb(112,128,144);
+  text-decoration: none;
+}
 
 
 .button-nav{
   display: inline-block;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 2em;
-  padding: 1rem 2.5rem;
+  padding: 1rem 1.5rem;
   text-decoration: none;
 }
 
@@ -44,15 +54,11 @@ p  {
   color: rgb(253,106,79);
 }
 
-a.button-nav {
-  color: black;
-}
-
 
 
 img {
 	height: auto; 
-	max-width: 100%;
+	max-width: 50%;
 }
 
 
