@@ -3,3 +3,67 @@ body {
   margin: 1rem;
   font-size: 1rem;
 }
+
+
+h1 {
+  font-size: 2.7rem;
+  margin-bottom: 0;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+
+p  {
+  max-width: 40rem;
+  line-height: 1.5em;
+}
+
+
+
+.button-nav{
+  display: inline-block;
+  color: black;
+  font-size: 1.3rem;
+  line-height: 2em;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+}
+
+
+.button-nav:active, .header-item:hover, .header-item:focus {
+  color: rgb(253,106,79);
+}
+
+a.button-nav {
+  color: black;
+}
+
+
+
+img {
+	height: auto; 
+	max-width: 100%;
+}
+
+
+figure {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
