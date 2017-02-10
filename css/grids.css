@@ -21,6 +21,10 @@
 	width:100%;
 }
 
+.col-8of12{
+	width:66.6%;
+}
+
 .col-6of12{
 	width:50%;
 }
