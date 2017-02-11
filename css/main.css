@@ -44,6 +44,7 @@ a:active, a:hover, a:focus {
   display: inline-block;
   color: black;
   font-size: 1rem;
+  font-weight: bold;
   line-height: 2em;
   padding: 0.8rem 1.3rem 0 1.3rem;
   text-decoration: none;
@@ -98,10 +99,17 @@ figure {
 }
 
 .city {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	color: rgb(253,106,79);
 }
 
+<<<<<<< Updated upstream
+=======
+.get-in-touch {
+	margin-top: 5rem;
+}
+
+>>>>>>> Stashed changes
 .product-picture {
   display: block;
   margin: auto;
