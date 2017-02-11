@@ -98,6 +98,7 @@ figure {
   padding: 0 2.7rem;
 }
 
+/* contact page style*/
 .city {
 	margin-bottom: 2rem;
 	color: rgb(253,106,79);
@@ -108,6 +109,25 @@ figure {
 .get-in-touch {
 	margin-top: 5rem;
 }
+/**/
+
+/* my cart style*/
+.button-submit {
+  display: inline-block;
+  padding: 1em 2.5em;
+  color: white;
+  background-color: rgb(112,128,144);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 2em;
+  border:none;
+  text-decoration: none;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: rgb(253,106,79);
+}
+/**/
 
 >>>>>>> Stashed changes
 .product-picture {
