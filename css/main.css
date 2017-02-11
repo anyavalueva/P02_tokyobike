@@ -85,6 +85,13 @@ figure {
 
 /**/
 
+.homepage-concept{
+  margin-left: 2rem;
+
+
+}
+
+
 .logo {
 	width: 50%;
 	padding: 0 2rem 0 3rem;
@@ -104,8 +111,7 @@ figure {
 	color: rgb(253,106,79);
 }
 
-<<<<<<< Updated upstream
-=======
+
 .get-in-touch {
 	margin-top: 5rem;
 }
@@ -129,7 +135,7 @@ figure {
 }
 /**/
 
->>>>>>> Stashed changes
+
 .product-picture {
   display: block;
   margin: auto;
