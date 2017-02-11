@@ -84,7 +84,13 @@ figure {
 .city {
 	margin-bottom: 3rem;
 	color: rgb(253,106,79);
+.product-picture {
+  display: block;
+  margin: auto;
+}
 
+.product-caption {
+  text-align: center;
 }
 
 
