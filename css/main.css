@@ -134,19 +134,24 @@ figure {
   background-color: rgb(253,106,79);
 }
 
+.cart-product-name {
+  text-align: left;
+  padding-top: 4.5rem;
+}
 
 .cart-thumbnail {
   display: block;
-  margin: auto;
-  margin-bottom: 5rem;
+  margin: 0 2rem 5rem 0;
+  float: left;
 }
 
 .cart-thumbnail-caption {
+  clear: left;
   text-align: left;
 }
 
 .subtotal-bar {
-  margin-bottom: 2rem;
+  margin: 1rem 0 2rem 0;
 }
 /**/
 
