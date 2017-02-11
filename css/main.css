@@ -45,7 +45,7 @@ a:active, a:hover, a:focus {
   color: black;
   font-size: 1rem;
   line-height: 2em;
-  padding: 1.25rem 1.3rem 0 1.3rem;
+  padding: 0.8rem 1.3rem 0 1.3rem;
   text-decoration: none;
 }
 
@@ -66,10 +66,23 @@ figure {
 	margin: 0;
 }
 
+/*homepage images styling*/
 
-.homepage-picture {
-  position: absolute;
+.homepage-picture-left {
+  padding-right: 10%;
+  
 }
+
+.homepage-picture-right-top {
+  float: left;
+  margin-bottom: 15%;
+}
+
+.homepage-picture-right-bottom {
+  float: left;
+}
+
+/**/
 
 .logo {
 	width: 50%;
@@ -78,12 +91,17 @@ figure {
 
 #header {
   padding: 3rem 0 7rem 0;
+}
 
+#body {
+  padding: 0 2.7rem;
 }
 
 .city {
 	margin-bottom: 3rem;
 	color: rgb(253,106,79);
+}
+
 .product-picture {
   display: block;
   margin: auto;
@@ -92,6 +110,8 @@ figure {
 .product-caption {
   text-align: center;
 }
+
+
 
 
 
