@@ -39,6 +39,13 @@ a:active, a:hover, a:focus {
   	text-decoration: none;
 }
 
+#header {
+  padding: 3rem 3rem 7rem 3rem;
+}
+
+#body {
+  padding: 0 6rem;
+}
 
 .button-nav{
   display: inline-block;
@@ -97,13 +104,6 @@ figure {
 	padding: 0 2rem 0 3rem;
 }
 
-#header {
-  padding: 3rem 0 7rem 0;
-}
-
-#body {
-  padding: 0 2.7rem;
-}
 
 /* contact page style*/
 .city {
@@ -159,6 +159,8 @@ figure {
 .product-picture {
   display: block;
   margin: auto;
+  width: 90%;
+  height: auto;
 }
 
 .product-caption {
