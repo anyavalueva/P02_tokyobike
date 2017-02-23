@@ -77,13 +77,13 @@ figure {
 /*homepage images styling*/
 
 .homepage-picture-left {
-  padding-right: 10%;
+  padding-right: 3rem;
   
 }
 
 .homepage-picture-right-top {
   float: left;
-  margin-bottom: 15%;
+  margin-bottom: 3rem;
 }
 
 .homepage-picture-right-bottom {
@@ -100,7 +100,7 @@ figure {
 
 
 .logo {
-	width: 50%;
+	width: 16rem;
 	padding: 0 2rem 0 3rem;
 }
 

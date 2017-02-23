@@ -48,5 +48,42 @@
 	width:8.33%;
 }
 
+.col-logo{
+	width:41.6%;
+}
+
+.col-nav{
+	width:58.3%;
+}
+
+@media (max-width: 84.81em) {
+
+	.col-logo {
+		width: 100%;
+	}
+
+	.col-nav {
+		width: 100%;
+		padding-left: 2rem;
+	}
+
+}
+
+@media (max-width: 78.125em) {
+
+	.col-4of12 {
+		width: 100%;
+	}
+
+	.col-5of12{
+		width: 60%;
+	}
+
+	.col-3of12{
+		width: 40%;
+	}
+
+}
+
 
 
