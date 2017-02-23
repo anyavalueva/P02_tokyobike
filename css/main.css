@@ -122,10 +122,6 @@ figure {
 
 /* my cart style*/
 
-.cart-bg{
-  background-color: grey;
-
-}
 
 
 .button-submit {
@@ -144,27 +140,29 @@ figure {
   background-color: rgb(253,106,79);
 }
 
-.cart-product-name {
-  text-align: left;
-  padding-top: 8.5rem;
-}
 
 .cart-thumbnail {
+  max-width: 40%;
   height: auto; 
-  width: 50%;
-  display: block;
-  margin: 0 2rem 5rem 0;
-  float: left;
+  margin: 0 0rem 0rem 0;
 }
 
-.cart-thumbnail-caption {
-  clear: left;
-  text-align: left;
+figure {
+  margin: 0;
 }
 
-.subtotal-bar {
-  margin: 1rem 0 2rem 0;
+.cart-product-name{
+  margin: 2rem 0 0 0;
+  line-height: 1.5em;
+
 }
+
+.cart-subtotal {
+  margin: 2rem 0 1rem 0.6rem;
+}
+
+
+
 /**/
 
 
