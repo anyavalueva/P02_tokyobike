@@ -213,7 +213,7 @@ figure {
 .thumbnail-row {
   max-width: 100%;
   height: auto; 
-  margin: 4rem 2rem 0 4rem;
+  margin: 4rem 5rem 0 4rem;
 }
 
 .product-description {
@@ -221,8 +221,17 @@ figure {
 }
 
 .product-parameters {
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 2rem 0;
 }
+
+.select-colour {
+  max-width: 10%;
+  height: auto; 
+  display: inline-block;
+  padding: 0;
+}
+
+
 
 
 .map { 
