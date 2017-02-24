@@ -193,6 +193,7 @@ figure {
 .product-picture {
   display: block;
   margin: auto;
+  max-width: 100%;
   height: auto;
 }
 
@@ -203,12 +204,24 @@ figure {
 }
 
 
-.thumbnail{
-  margin-bottom: 1rem;
+.thumbnail {
+  width: 50%;
+  height: auto; 
+  margin: 0 2rem 1rem 0; 
 }
 
-.map {
-  padding-right: 3rem;
+.thumbnail-row {
+  max-width: 100%;
+  height: auto; 
+  margin: 4rem 2rem 0 4rem;
+}
+
+.product-description {
+  margin: 2rem 0 3rem 0;
+}
+
+.product-parameters {
+  margin: 1rem 0 3rem 0;
 }
 
 
