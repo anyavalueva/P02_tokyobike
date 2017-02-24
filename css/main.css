@@ -41,6 +41,16 @@ a:active, a:hover, a:focus {
   	text-decoration: none;
 }
 
+img {
+  height: auto; 
+  max-width: 100%;
+}
+
+
+figure {
+  margin: 0;
+}
+
 #header {
   padding: 3rem 3rem 7rem 3rem;
 }
@@ -50,6 +60,11 @@ a:active, a:hover, a:focus {
 }
 
 
+/* navigation meny styling*/
+
+/*.navigation{
+  overflow: hidden;
+}*/
 
 .button-nav{
   display: inline-block;
@@ -61,23 +76,18 @@ a:active, a:hover, a:focus {
   text-decoration: none;
 }
 
-
 .button-nav:active, .header-item:hover, .header-item:focus {
   color: rgb(253,106,79);
 }
 
-
-
-img {
-	height: auto; 
-	max-width: 100%;
+.icon {
+  display: none;
+  padding: 0 3rem 0 0;
+  font-size: 1.6rem;
+  float: right;
 }
 
 
-
-figure {
-	margin: 0;
-}
 
 .image-link:hover {
   opacity: 0.7;
@@ -194,6 +204,7 @@ figure {
 .map {
   padding-right: 3rem;
 }
+
 
 
 

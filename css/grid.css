@@ -134,6 +134,22 @@
   		width: 100%;
 	}
 
+	.button-nav {
+		display: none;
+	}
+
+	.icon {
+		display: inline-block;
+	}
+
+	.col-logo{
+		width:80%;
+	}
+
+	.col-nav{
+		width:20%;
+	}
+
 }
 
 @media (max-width: 36.5em) {
@@ -151,7 +167,15 @@
 	}
 
 	#body {
-	  padding: 0 2rem;
+	  	padding: 0 2rem;
+	}
+
+	.icon {
+	  	padding: 0 1rem 0 0;
+	}
+
+	.logo{
+		padding: 0 4rem 0 1rem;
 	}
 
 }
