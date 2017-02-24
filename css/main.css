@@ -217,13 +217,17 @@ figure {
 }
 
 .product-description {
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0 3rem 0;s
 }
 
 .product-parameters {
   margin: 1rem 0 3rem 0;
 }
 
+
+.map { 
+  padding-right: 3rem; 
+}
 
 
 
