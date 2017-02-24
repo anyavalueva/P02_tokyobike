@@ -74,9 +74,15 @@ img {
 }
 
 
+
 figure {
 	margin: 0;
 }
+
+.image-link:hover {
+  opacity: 0.7;
+}
+
 
 /*homepage images styling*/
 
@@ -188,6 +194,7 @@ figure {
 .map {
   padding-right: 3rem;
 }
+
 
 
 

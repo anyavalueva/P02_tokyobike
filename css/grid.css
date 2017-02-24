@@ -112,6 +112,24 @@
   		width: 50%;
 	}
 
+/*}
+
+@media (max-width: 44.375em) {*/
+
+	.col-pic-left{
+		width: 100%;
+	}
+
+	.col-pic-right{
+		width: 100%;
+	}
+
+	.homepage-picture-left {
+  		padding-right: 0;
+  		padding-bottom: 3rem;
+  
+}
+
 }
 
 @media (max-width: 36.5em) {
