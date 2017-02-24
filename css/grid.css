@@ -150,6 +150,14 @@
 		width:20%;
 	}
 
+	.col-map {
+		width:100%;
+	}
+
+	.col-contact-info{
+		width:100%;
+	}
+
 }
 
 @media (max-width: 36.5em) {
@@ -163,11 +171,11 @@
 @media (max-width: 31em) {
 
 	#header{
-  		padding: 3rem 0.5rem 7rem 0.5rem;
+  		padding: 3rem 0.3rem 5rem 0.2rem;
 	}
 
 	#body {
-	  	padding: 0 2rem;
+	  	padding: 0 0.5rem;
 	}
 
 	.icon {
@@ -176,6 +184,19 @@
 
 	.logo{
 		padding: 0 4rem 0 1rem;
+	}
+
+	.homepage-picture-left {
+	  padding-bottom: 1rem;
+	  
+	}
+
+	.homepage-picture-right-top {
+	  margin-bottom: 1rem;
+	}
+
+	.map {
+		padding-right: 0;
 	}
 
 }
