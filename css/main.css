@@ -62,9 +62,6 @@ figure {
 
 /* navigation meny styling*/
 
-/*.navigation{
-  overflow: hidden;
-}*/
 
 .button-nav{
   display: inline-block;
@@ -87,6 +84,15 @@ figure {
   float: right;
 }
 
+.navigation.responsive {
+  float: none;
+  display: inline;
+}
+
+.button-nav.responsive {
+  display: block;
+  text-align: left;
+}
 
 
 .image-link:hover {
