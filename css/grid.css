@@ -56,6 +56,10 @@
 	width:58.3%;
 }
 
+.col-3of12.blank{
+	width:26%;
+}
+
 @media (max-width: 84.81em) {
 
 	.col-logo {
@@ -156,6 +160,18 @@
 
 	.col-contact-info{
 		width:100%;
+	}
+
+	.col-cart-pic {
+		width:50%;
+	}
+
+	.col-cart-description {
+		width:50%;
+	}
+
+	.col-cart-total {
+		width: 100%;
 	}
 
 }
