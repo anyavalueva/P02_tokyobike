@@ -185,6 +185,7 @@ figure {
 
 /**/
 
+/*product page*/
 
 .product-picture {
   display: block;
@@ -220,6 +221,11 @@ figure {
   margin: 1rem 0 2rem 0;
 }
 
+.red-swatch .mustard-swatch{
+  display: inline-block;
+ float: left;
+}
+
 .select-colour {
   max-width: 10%;
   height: auto; 
@@ -227,6 +233,16 @@ figure {
   padding: 0;
 }
 
+
+
+
+/* choose by colour page*/
+.colour-swatch {
+  max-width: 85%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
 
 
 

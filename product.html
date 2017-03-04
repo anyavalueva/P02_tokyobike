@@ -63,8 +63,8 @@
                 
                       <h3>Colour</h3>
                           <div class="select-colour">
-                            <img src="img/salmon-red.png" alt="salmon red colour swatch">
-                            <img src="img/mustard.png" alt="mustard colour swatch">
+                            <img class="red-swatch" src="img/salmon-red.png" alt="salmon red colour swatch">
+                            <img class="mustard-swatch" src="img/mustard.png" alt="mustard colour swatch">
                             <img src="img/vincent-blue.png" alt="vincent blue colour swatch">
                             <img src="img/blue-jade.png" alt="blue-jade colour swatch">
                           </div>
@@ -78,7 +78,7 @@
                           </select>
 
                       <h3>Quantity</h3>
-                       <select name="select-quantity">
+                          <select name="select-quantity">
                               <option value="1">1</option>
                               <option value="2">2</option>
                               <option value="3">3</option>
@@ -88,8 +88,11 @@
 
                   </div>
 
-                  <button class="button-submit">add to cart</button>
-          </div>
+                  <form>
+                    <input class="button-submit" type="button" value="add to cart" onclick="window.location.href='my-cart.html'" />
+                  </form>
+                  <!-- <button class="button-submit">add to cart</button>
+          </div> -->
 
       </section>
 
