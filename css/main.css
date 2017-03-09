@@ -69,7 +69,7 @@ figure {
   font-size: 1rem;
   font-weight: bold;
   line-height: 2em;
-  padding: 0.8rem 1.3rem 0 1.3rem;
+  padding: 0.4rem 1.3rem 0 1.3rem;
   text-decoration: none;
 }
 
@@ -120,9 +120,8 @@ figure {
 
 .homepage-concept{
   margin: 2rem;
-  margin-top: 70%;
-
-
+  margin-left: 5rem;
+  margin-top: 60%;
 }
 
 
@@ -137,6 +136,7 @@ figure {
 	margin-bottom: 2rem;
 	color: rgb(253,106,79);
 }
+
 
 /**/
 
@@ -162,7 +162,7 @@ figure {
 
 
 .cart-thumbnail {
-  max-width: %;
+/*  max-width: %;*/
   height: auto; 
   margin: 0 0rem 0rem 0;
 }
@@ -244,7 +244,20 @@ figure {
   margin: auto;
 }
 
+.color {
+  width: 2rem;
+  margin: 0.2rem;
+}
 
+.color:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.color-categories{
+  padding-left: 5rem;
+  padding-top: 0.07srem;
+}
 
 .map { 
   padding-right: 3rem; 
@@ -252,12 +265,9 @@ figure {
 
 /*ACCORDION*/
 
-/*.checkout {
-    border: solid;
-    border-width: 2px;
-    border-color: black;
-
-}*/
+.checkout {
+  padding-top: 3.5rem;
+}
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
@@ -278,7 +288,7 @@ button.accordion {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #ececec;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -308,10 +318,39 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+
 }
+
+.input {
+  padding: 0 0.5rem;
+}
+
+.form-button {
+  float: right;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+
+  display: inline-block;
+  padding: 1em 2.5em;
+  color: white;
+  background-color: black;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  border-radius: 2em;
+  border:none;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.form-button:hover, .form-button:focus {
+  background-color: rgb(253,106,79);
+}
+
+
+
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -328,10 +367,20 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     padding: 20px;
+}
+
+select {
+  height: 2rem;
+}
+
+.product-review {
+  max-width: 11rem;
+
 }
 
 
