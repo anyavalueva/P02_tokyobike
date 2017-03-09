@@ -162,23 +162,37 @@ figure {
 
 
 .cart-thumbnail {
-  max-width: %;
-  height: auto; 
-  margin: 0 0rem 0rem 0;
+  max-width: 100%;
+  height: auto;
 }
 
-figure {
-  margin: 0;
+.items-in-cart {
+  margin-bottom: 2rem;
+  color: rgb(253,106,79);
+  font-size: 2rem;
 }
 
-.cart-product-name{
-  margin: 5.8rem 0 0 0;
-  line-height: 1.8em;
-
+.col-cart-description {
+  color: black;
+  font-size: 1rem;
+  margin: 1.7rem 0 0 3rem;
 }
+
+.col-cart-description p{
+  line-height: 0.5em;
+  }
+
+.price {
+  margin-bottom: 2rem;
+  color: black;
+  font-size: 1.3rem;
+}
+
 
 .cart-subtotal {
   margin: 6.3rem 0 0.7rem 0.8rem;
+  color: rgb(253,106,79);
+  font-size: 1.5rem;
 }
 
 
@@ -214,7 +228,7 @@ figure {
 }
 
 .product-description {
-  margin: 2rem 0 3rem 0;s
+  margin: 2rem 0 3rem 0;
 }
 
 .product-parameters {
@@ -223,7 +237,7 @@ figure {
 
 .red-swatch .mustard-swatch{
   display: inline-block;
- float: left;
+  float: left;
 }
 
 .select-colour {
