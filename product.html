@@ -48,27 +48,39 @@
           </div>
 
           <div class="col-1of12 thumbnail-row">
-            <img class="thumbnail" src="img/thumbnail-single-speed-1.png" alt="logo">
-            <img class="thumbnail" src="img/thumbnail-single-speed-2.png" alt="logo">
-            <img class="thumbnail" src="img/thumbnail-single-speed-3.png" alt="logo">
-            <img class="thumbnail" src="img/thumbnail-single-speed-4.png" alt="logo">
-            <img class="thumbnail" src="img/thumbnail-single-speed-5.png" alt="logo">
+            <a href=".html"><img class="thumbnail" src="img/thumbnail-single-speed-1.png" alt="logo"></a>
+            <a href=".html"><img class="thumbnail" src="img/thumbnail-single-speed-2.png" alt="logo"></a>
+            <a href=".html"><img class="thumbnail" src="img/thumbnail-single-speed-3.png" alt="logo"></a>
+            <a href=".html"><img class="thumbnail" src="img/thumbnail-single-speed-4.png" alt="logo"></a>
+            <a href=".html"><img class="thumbnail" src="img/thumbnail-single-speed-5.png" alt="logo"></a>
           </div>
 
           <div class="col-5of12 product-description">
                   <h2>Single Speed</h2>
                   <p>Our tokyobike Single Speed is made with a light and beautifully simple slim Cr-Mo steel frame. The 650c wheel size and responsive flat handlebar ensure a smooth, quick, agile ride. This model comes standard as a 'free wheel' with the option of conversion to fixed gear.</p>
 
-                  <div class="product-parameters">
-                
-                      <h3>Colour</h3>
-                          <div class="select-colour">
-                            <img class="red-swatch" src="img/salmon-red.png" alt="salmon red colour swatch">
-                            <img class="mustard-swatch" src="img/mustard.png" alt="mustard colour swatch">
-                            <img src="img/vincent-blue.png" alt="vincent blue colour swatch">
-                            <img src="img/blue-jade.png" alt="blue-jade colour swatch">
-                          </div>
+                  <!-- <div class="product-parameters"> -->
 
+                    <h3>Colour</h3>
+                    <div class="select-colour">
+                          <a href=".html">
+                          <img class="color" src="img/colors/color-06.png" alt="yellow color category">
+                          </a>
+                          <a href=".html">
+                          <img class="color" src="img/colors/color-08.png" alt="light blue color category">
+                          </a>
+                          <a href=".html">
+                          <img class="color" src="img/colors/color-02.png" alt="grey color category">
+                          </a>
+                          <a href=".html">
+                          <img class="color" src="img/colors/color-03.png" alt="black color category">
+                          </a>
+                      </div>
+<!-- 
+                    </div> -->
+
+
+                    <div class="col-4of12 select-size">
                       <h3>Size</h3>
                           <select name="select-size">
                               <option value="xs">XS - 47cm</option>
@@ -76,7 +88,10 @@
                               <option value="m">M - 57cm</option>
                               <option value="l">L - 61cm</option>
                           </select>
+                        
+                    </div>
 
+                    <div class="col-4of12 select-quantity">
                       <h3>Quantity</h3>
                           <select name="select-quantity">
                               <option value="1">1</option>
@@ -85,12 +100,17 @@
                               <option value="4">4</option>
                               <option value="5">5</option>
                           </select>
+                    </div>
 
+                  
+
+                  <div class="col6-of12">
+                  <form>
+                    <input class="button-submit-cart" type="button" value="add to cart" onclick="window.location.href='my-cart.html'"/>
+                  </form>
                   </div>
 
-                  <form>
-                    <input class="button-submit" type="button" value="add to cart" onclick="window.location.href='my-cart.html'" />
-                  </form>
+                </div>
                   <!-- <button class="button-submit">add to cart</button>
           </div> -->
 
