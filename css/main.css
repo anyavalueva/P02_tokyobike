@@ -77,6 +77,10 @@ figure {
   color: rgb(253,106,79);
 }
 
+.personal-page{
+  color: rgb(253,106,79);
+}
+
 .icon {
   display: none;
   padding: 0 3rem 0 0;
@@ -128,6 +132,15 @@ figure {
 .logo {
 	width: 16rem;
 	padding: 0 2rem 0 3rem;
+}
+
+.logo-centered {
+  width: 16rem;
+  display: block;
+  padding: 0 2.5rem 0 2.5rem;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 
@@ -208,6 +221,11 @@ figure {
   height: auto;
 }
 
+.product-picture:hover{
+  opacity: 0.5;
+
+}
+
 .product-caption {
   text-align: center;
   line-height: 0;
@@ -270,8 +288,31 @@ figure {
 
 .color-categories{
   padding-left: 5rem;
-  padding-top: 0.07srem;
+  padding-top: 0.07rem;
 }
+
+
+/* choose by model*/
+.choose-by-model{
+  margin-left: 4rem;
+
+}
+
+.by-model {
+  display: inline-block;
+  color: grey;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2em;
+  padding: 0.4rem 1.3rem 0 1.3rem;
+  text-decoration: none;
+
+}
+
+.by-model:hover, .button-submit:focus {
+  color: rgb(253,106,79);
+}
+
 
 .map { 
   padding-right: 3rem; 
@@ -280,7 +321,7 @@ figure {
 /*ACCORDION*/
 
 .checkout {
-  padding-top: 3.5rem;
+  /*padding-top: 3.5rem;*/
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -397,7 +438,54 @@ select {
 
 }
 
+/*account page*/
+
+.grey-bckgr {
+  background-color: #dcdcdc;
+}
+
+.login-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  padding: 1em 2.5em;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  color: white;
+  background-color: black;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  border-radius: 2em;
+  border:none;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.login-button:hover, .login-button:focus {
+  background-color: rgb(253,106,79);
+}
+
+.login-text {
+  text-align: center;
+  color: grey;
+}
+
+.login-text:hover {
+  color: rgb(253,106,79);
+}
 
 
+
+/*collaborations page*/
+
+.collab {
+  padding: 0.5rem;
+}
+
+.collab:hover {
+  opacity: 0.5;
+}
 
 
