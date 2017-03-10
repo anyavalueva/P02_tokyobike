@@ -239,6 +239,10 @@
 		padding-left: 0;
 	}
 
+	.checkout {
+		width: 80%
+	}
+
 }
 
 @media (max-width: 36.5em) {
@@ -354,10 +358,9 @@
 		display: none;
 	}
 
-
-
-/**/
-
+	.checkout {
+		width: 95%
+	}
 
 }
 

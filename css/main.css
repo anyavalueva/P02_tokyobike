@@ -348,11 +348,17 @@ hr.line{
 
 /*accordion, checkout process*/
 
-.checkout {
-  /*padding-top: 3.5rem;*/
+
+
+.checkout{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
+
+
 button.accordion {
     background-color: white;
     color: 0;
@@ -369,12 +375,11 @@ button.accordion {
 
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: #ececec;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+
 div.panel {
     padding: 0 18px;
     background-color: white;
@@ -382,7 +387,7 @@ div.panel {
 }
 
 button.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795'; 
     font-size: 13px;
     color: #777;
     float: right;
@@ -390,17 +395,17 @@ button.accordion:after {
 }
 
 button.accordion.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796"; 
 }
 
 /*FORM*/
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
@@ -433,9 +438,6 @@ input[type=text], select, textarea {
 }
 
 
-
-
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -445,13 +447,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     padding: 20px;
@@ -464,6 +463,10 @@ select {
 .product-review {
   max-width: 11rem;
 
+}
+
+.review {
+  padding-top: 2rem;
 }
 
 /*account page*/
@@ -565,8 +568,6 @@ hr.line-footer{
   text-transform: uppercase;
   font-size: 0.5rem;
 }
-
-/**/
 
 
 /*style guide*/
