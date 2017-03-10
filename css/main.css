@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 2.7rem;
   margin-bottom: 0;
+  color: black;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
 h3 {
 	font-size: 1.3rem;
 	margin-bottom: 0;
+  color: grey;
 }
 
 
@@ -31,6 +33,7 @@ p  {
 }
 
 a {
+  line-height: 1.5em;
   color: black;
   text-decoration: none; 
   transition: color 0.3s;
@@ -38,7 +41,7 @@ a {
 
 a:active, a:hover, a:focus {
 	color: rgb(253,106,79);
-  	text-decoration: none;
+  text-decoration: none;
 }
 
 img {
@@ -152,12 +155,11 @@ figure {
 	color: rgb(253,106,79);
 }
 
-
 /**/
 
+
+
 /* my cart style*/
-
-
 
 .button-submit {
   display: inline-block;
@@ -218,13 +220,15 @@ hr.line{
 }
 
 .cart-delete{
-
   margin-top: 4.4rem;
 }
 
-
+.cart-delete:hover{
+  opacity: 0.7;
+}
 
 /**/
+
 
 /*product page*/
 
@@ -235,10 +239,6 @@ hr.line{
   height: auto;
 }
 
-.product-picture:hover{
-  opacity: 0.5;
-
-}
 
 .product-caption {
   text-align: center;
@@ -248,7 +248,7 @@ hr.line{
 
 
 .thumbnail {
-  width: 50%;
+  max-width: 100%;
   height: auto; 
   margin: 0 2rem 1rem 0; 
 }
@@ -282,22 +282,11 @@ hr.line{
   padding-left: 1rem;
 }
 
-.button-submit-cart {
-  margin: 2.5em 0 0 3.5em;
-  display: inline-block;
-  padding: 1em 2.5em;
-  color: white;
-  background-color: black;
-  font-size: 1rem;
-  text-transform: uppercase;
-  border-radius: 2em;
-  border:none;
-  text-decoration: none;
+.cart {
+  margin: 2.5em 0 0 0;
 }
 
-.button-submit-cart:hover, .button-submit:focus {
-  background-color: rgb(253,106,79);
-}
+
 
 
 
@@ -522,5 +511,97 @@ select {
 .collab:hover {
   opacity: 0.5;
 }
+
+/**/
+
+
+
+/*footer*/
+hr.line-footer{
+  margin: 2rem 0 2rem 0;
+  border: 0.5px solid grey; 
+}
+
+.footer{
+  margin: 4rem 0 2rem 0;
+}
+
+.page-list {
+  word-spacing: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+}
+
+/**/
+
+
+/*style guide*/
+section:not([id]) {
+  margin: 2em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+
+section code {
+  display: inline-block;
+  background-color: #EEE;
+  padding: 0.5em 0.5em;
+  max-width: 40rem;
+  line-height: 1.8em;
+}
+
+
+.sg-title{
+  margin: 3rem 0 3rem 0;
+}
+
+.sg-navigation{
+  line-height: 1.5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sg-header{
+  padding-top: 1rem;
+}
+
+.sg-subheader{
+  padding: 1.5rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+.sg-link{
+  color: rgb(253,106,79);
+  text-decoration: none; 
+  transition: color 0.3s;
+}
+
+.sg-link:active, a:hover, a:focus {
+    color: grey;
+    text-decoration: none;
+}
+
+.sg-textmargin{
+  margin:0;
+}
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
