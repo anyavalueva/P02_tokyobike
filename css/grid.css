@@ -64,6 +64,7 @@
 	width:23%;
 }
 
+
 @media (max-width: 87em) {
 
 	.col-logo {
@@ -201,6 +202,19 @@
 }
 
 @media (max-width: 36.5em) {
+
+	#header{
+  		padding: 3rem 0.3rem 4rem 0.2rem;
+	}
+
+	.hidden-section {
+	  width: 100%;
+	  display: block;
+	}
+
+	.col-concept{
+		display: none;
+	}
 
 	.col-product-pic{
   		width: 100%;

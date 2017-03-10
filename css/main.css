@@ -523,4 +523,11 @@ select {
   opacity: 0.5;
 }
 
+/*hidden*/
+
+.hidden-section {
+  width: 100%;
+  display: none;
+}
+
 
