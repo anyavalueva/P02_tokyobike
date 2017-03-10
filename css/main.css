@@ -177,9 +177,10 @@ figure {
   background-color: rgb(253,106,79);
 }
 
+/*my cart styling*/
+
 
 .cart-thumbnail {
-  /*max-width: 100%;*/
   height: auto;
   width:15rem;
   padding-right: 1rem;
@@ -230,7 +231,6 @@ hr.line{
   opacity: 0.7;
 }
 
-/**/
 
 
 /*product page*/
@@ -289,11 +289,12 @@ hr.line{
   margin: 2.5em 0 0 0;
 }
 
+/* choose by page*/
 
-
-
-
-
+/*.homepage-concept{
+  position: fixed;
+  top: 50%;
+}*/
 
 /* choose by colour page*/
 .colour-swatch {
@@ -345,7 +346,7 @@ hr.line{
   padding-right: 3rem; 
 }
 
-/*ACCORDION*/
+/*accordion, checkout process*/
 
 .checkout {
   /*padding-top: 3.5rem;*/
@@ -475,7 +476,7 @@ select {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 10rem;
 
   padding: 1em 2.5em;
   margin-top: 1rem;
@@ -497,10 +498,30 @@ select {
 .login-text {
   text-align: center;
   color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .login-text:hover {
   color: rgb(253,106,79);
+
+}
+
+.login-input {
+  width:15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.new-acc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -516,11 +537,15 @@ select {
 }
 
 /*hidden*/
-/**/
 
 .hidden-section {
   width: 100%;
   display: none;
+}
+
+.hidden-section-choose-by {
+width: 100%;
+display: none;
 }
 
 
@@ -595,14 +620,6 @@ section code {
 .sg-textmargin{
   margin:0;
 }
-
-
-
-/**/
-
-
-
-
 
 
 
