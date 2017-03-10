@@ -177,9 +177,10 @@ figure {
 
 
 .cart-thumbnail {
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
-  padding-right: 4em;
+  width:15rem;
+  padding-right: 1rem;
 }
 
 
@@ -190,7 +191,7 @@ figure {
 }
 
 .cart-header{
-  margin-bottom: 2.9em;
+  margin-bottom: 1.5rem;
   color: rgb(253,106,79);
   font-size: 1rem;
 }
@@ -218,8 +219,9 @@ hr.line{
 }
 
 .cart-delete{
-
-  margin-top: 4.4rem;
+  margin-top: 2.3rem;
+  width: 1.6rem;
+  float: right;
 }
 
 

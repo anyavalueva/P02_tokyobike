@@ -253,6 +253,46 @@
 	width: 20%;
 	}
 
+	.col-cart-pic{
+		width:100%;
+
+	}
+
+	.col-cart-name{
+		width:50%;
+	}
+
+	.col-cart-quantity{
+		width:20%;
+	}
+
+	.col-cart-price{
+		width:20%;
+	}
+
+	.col-cart-delete {
+		width:10%;
+	}
+
+	.cart-content{
+		font-size: 0.9rem;
+		padding-left: 0.5rem;
+
+	}
+
+	.cart-header{
+		font-size: 0.9rem;
+		padding-left: 0.5rem;
+
+	}
+
+	.cart-delete{
+	  width: 1.3rem;
+	  float: right;
+	}
+
+
+
 /**/
 
 
