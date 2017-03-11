@@ -130,7 +130,7 @@ figure {
 .homepage-concept{
   margin: 2rem;
   margin-left: 5rem;
-  margin-top: 65%;
+  margin-top: 60%;
 }
 
 
@@ -262,7 +262,7 @@ hr.line{
 
 
 .thumbnail {
-  max-width: 100%;
+  max-width: 50%;
   height: auto; 
   margin: 0 2rem 1rem 0; 
 }
@@ -599,7 +599,8 @@ hr.line-footer{
 .footer-fixed{
   width: 97.8%;
   bottom: 2rem;
-  position: absolute;
+  position: fixed;
+  
 }
 
 .page-list {
