@@ -177,9 +177,10 @@ figure {
   background-color: rgb(253,106,79);
 }
 
+/*my cart styling*/
+
 
 .cart-thumbnail {
-  /*max-width: 100%;*/
   height: auto;
   width:15rem;
   padding-right: 1rem;
@@ -216,7 +217,7 @@ hr.line{
   border: 3px solid black; 
 }
 
-.checkout{
+.checkout-button{
   margin-top: 2rem;
 }
 
@@ -230,7 +231,6 @@ hr.line{
   opacity: 0.7;
 }
 
-/**/
 
 
 /*product page*/
@@ -240,6 +240,17 @@ hr.line{
   margin: auto;
   max-width: 100%;
   height: auto;
+}
+
+.product-thumbnail {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-thumbnail:hover {
+  opacity:0.5;
 }
 
 
@@ -289,13 +300,16 @@ hr.line{
   margin: 2.5em 0 0 0;
 }
 
+/* choose by page*/
 
-
-
-
-
-
+.col-choose-by{
+position: fixed;
+bottom: 5rem;
+left:52rem;
+}
 /* choose by colour page*/
+
+
 .colour-swatch {
   max-width: 85%;
   height: auto;
@@ -340,18 +354,45 @@ hr.line{
   color: rgb(253,106,79);
 }
 
+.by-category {
+  color: grey;
+}
+
+.by-category-active {
+  color: rgb(253,106,79);
+  
+}
+
+.by-category:hover {
+  text-decoration: underline;
+  color: rgb(253,106,79);
+
+}
+
+.by-category-active:hover  {
+  text-decoration: underline;
+  color: grey;
+  
+}
+
 
 .map { 
   padding-right: 3rem; 
 }
 
-/*ACCORDION*/
+/*accordion, checkout process*/
 
-.checkout {
-  /*padding-top: 3.5rem;*/
+
+
+.checkout{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
+
+
 button.accordion {
     background-color: white;
     color: 0;
@@ -368,12 +409,11 @@ button.accordion {
 
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: #ececec;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+
 div.panel {
     padding: 0 18px;
     background-color: white;
@@ -381,7 +421,7 @@ div.panel {
 }
 
 button.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795'; 
     font-size: 13px;
     color: #777;
     float: right;
@@ -389,17 +429,17 @@ button.accordion:after {
 }
 
 button.accordion.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796"; 
 }
 
 /*FORM*/
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
@@ -432,9 +472,6 @@ input[type=text], select, textarea {
 }
 
 
-
-
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -444,13 +481,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     padding: 20px;
@@ -465,6 +499,10 @@ select {
 
 }
 
+.review {
+  padding-top: 2rem;
+}
+
 /*account page*/
 
 .grey-bckgr {
@@ -475,7 +513,7 @@ select {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 10rem;
 
   padding: 1em 2.5em;
   margin-top: 1rem;
@@ -497,10 +535,30 @@ select {
 .login-text {
   text-align: center;
   color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .login-text:hover {
   color: rgb(253,106,79);
+
+}
+
+.login-input {
+  width:15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.new-acc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -516,11 +574,15 @@ select {
 }
 
 /*hidden*/
-/**/
 
 .hidden-section {
   width: 100%;
   display: none;
+}
+
+.hidden-section-choose-by {
+width: 100%;
+display: none;
 }
 
 
@@ -546,9 +608,6 @@ hr.line-footer{
   text-transform: uppercase;
   font-size: 0.5rem;
 }
-
-
-/**/
 
 
 /*style guide*/
@@ -602,14 +661,6 @@ section code {
 .sg-textmargin{
   margin:0;
 }
-
-
-
-/**/
-
-
-
-
 
 
 
