@@ -65,6 +65,8 @@
 }
 
 
+
+
 @media (max-width: 87em) {
 
 	.col-logo {
@@ -141,9 +143,45 @@
 	}
 
 
+
 }
 
 @media  (max-width: 54.68em) {
+
+	.col-4of12{
+		width: 100%;
+	}
+
+	.col-1of12{
+		width: 100%;
+				display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.thumbnail-row {
+		margin: 0 2rem 0 2rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.select-quantity{
+		padding-left: 0;
+	}
+
+	.thumbnail {
+		margin: 0 0.5rem 1rem 0.5rem;
+		display: inline-block;
+		width: 3rem;
+	}
+
+	.product-description {
+		width: 100%;
+	}
+
+
 
 	.col-all-categories{
 		width: 100%;
@@ -305,6 +343,7 @@
 
 
 
+
 }
 
 @media (max-width: 36.5em) {
@@ -321,14 +360,10 @@
 		width: 100%;
 	}
 
-
-	.col-product-pic{
-  		width: 100%;
-	}
-
 	.homepage-picture-left{
 	padding-right: 0rem;
 	}
+
 
 
 
