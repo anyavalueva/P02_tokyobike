@@ -41,7 +41,11 @@
 		        <h2 class="sg-header">Navigation Button</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;button class="topnav"&gt;collaborations&lt;/button&gt;</code>
+        				<code>
+        					&lt;nav class="topnav" id="myTopnav"&gt;
+        					&lt;a class="button-nav" href="bikes.html"&gt;bikes&lt;/a&gt;
+        					&lt;/nav&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 		       			<nav class="topnav" id="myTopnav">
@@ -54,7 +58,9 @@
 		        <h2 class="sg-header">In-text link</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;a href="#view-details"&gt;View Details&lt;/a&gt;</code>
+        				<code>
+        					&lt;a href="#view-details"&gt;View Details&lt;/a&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 		        		<a class="sg-link" href="#view-details">View Details</a>
@@ -66,7 +72,9 @@
 		        <h2 class="sg-header">Submit Button</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;button class="button-submit"&gt;submit&lt;/button&gt;</code>
+        				<code>
+        					&lt;button class="button-submit"&gt;submit&lt;/button&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 		        		<button class="button-submit">submit</button>
@@ -80,7 +88,14 @@
 		        <h2 class="sg-header">Dropdown Selector</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;button class="button-submit"&gt;submit&lt;/button&gt;</code>
+        				<code>
+        					&lt;select name="select-size"&gt;
+        					&lt;option value="xs">XS - 47cm&gt;XS - 47cm&lt;/option&gt;
+        					&lt;option value="s">XS - 47cm&gt;S - 53cm&lt;/option&gt;
+        					&lt;option value="m">XS - 47cm&gt;M - 57cm&lt;/option&gt;
+        					&lt;option value="l">XS - 47cm&gt;L - 61cm&lt;/option&gt;
+        					&lt;/select&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 		      			<select name="select-size">
@@ -99,7 +114,9 @@
 		        <h2 class="sg-header">Stepper Panel</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;button class="button-submit"&gt;submit&lt;/button&gt;</code>
+        				<code>
+        					&lt;button class="accordion"&gt;4. Review and Purchase&lt;/button&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
                			<button class="accordion">4. Review and Purchase</button>
@@ -113,10 +130,10 @@
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
         				<code>
-        					&lt;form&gt;
-        					&lt;label&gt;Email Address&lt;/label&gt;
-        					&lt;input type="text" name="emailaddress"&gt;
-        					&lt;/form&gt;
+        					&lt;div class="input"&gt;
+        					&lt;label for="fname"&gt;Email&lt;/label&gt;
+        					&lt;input type="text" id="fname" name="firstname" placeholder="hello@tokyo.com"&gt;
+        					&lt;/div&gt;
         				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
@@ -142,19 +159,25 @@
 		        <h2 class="sg-header">Headings</h2>
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;h1&gt;eadline Helvetica Bold 45pt&lt;/h1&gt;</code>
+        				<code>
+        					&lt;h1&gt;Title Helvetica Regular 2.7rem&lt;/h1&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 			        	<h1 class="sg-textmargin">Title Helvetica Regular 2.7rem</h1>
 
 			        <h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;h1&gt;Title Helvetica Bold 36pt&lt;/h1&gt;</code>
+        				<code>
+        					&lt;h2&gt;Heading Helvetica Regular 1.6rem&lt;/h1&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 			        	<h2 class="sg-textmargin">Heading Helvetica Regular 1.6rem</h2>
 
 			        <h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;h1&gt;Subheading Helvetica Regular 18pt&lt;/h1&gt;</code>
+        				<code>
+        					&lt;h3&gt;Subheading Helvetica Regular 1.3rem&lt;/h1&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 			        	<h3 class="sg-textmargin">Subheading Helvetica Regular 1.3rem</h3>
@@ -166,7 +189,9 @@
 		        <h2 class="sg-header">Paragraphs</h2>
 
 		       		<h3 class="sg-subheader">Sample code:</h3>
-        				<code>&lt;p&gt;tokyobike is a small, independent bicycle company that sells a range of products, including bicycles and related accessories. Besides, it features an array of design goods which are created by relatively unknown makers in Japan.&lt;/p&gt;</code>
+        				<code>
+        					&lt;p&gt;tokyobike is a small, independent bicycle company that sells a range of products, including bicycles and related accessories. Besides, it features an array of design goods which are created by relatively unknown makers in Japan.&lt;/p&gt;
+        				</code>
 
         			<h3 class="sg-subheader">Rendered element:</h3>
 		        		<p class="sg-textmargin">tokyobike is a small, independent bicycle company that sells a range of products, including bicycles and related accessories. Besides, it features an array of design goods which are created by relatively unknown makers in Japan.</p>
@@ -180,7 +205,7 @@
 		        	<h3 class="sg-subheader">Sample code:</h3>
         				<code>
         					&lt;ul class="bulletted-list"&gt;
-        					&lt;li&gt; &lt;a href="#ace-hotel" class="list-item"&gt;Ace Hotel&lt;/a&gt; &lt;/li&gt;
+        					&lt;li&gt; &lt;a href="#mini-velo" class="list-item"&gt;Mini Velo&lt;/a&gt; &lt;/li&gt;
         					&lt;li&gt; &lt;a href="#classic-sport" class="list-item"&gt;Classic Sport&lt;/a&gt; &lt;/li&gt;
         					&lt;li&gt; &lt;a href="#single-speed" class="list-item"&gt;Single Speed&lt;/a&gt; &lt;/li&gt;
         					&lt;/ul&gt;
@@ -201,7 +226,7 @@
 		        	<h3 class="sg-subheader">Sample code:</h3>
         				<code>
         					&lt;ol class="bulletted-list"&gt;
-        					&lt;li&gt; &lt;a href="#ace-hotel" class="list-item"&gt;Ace Hotel&lt;/a&gt; &lt;/li&gt;
+        					&lt;li&gt; &lt;a href="#mini-velo" class="list-item"&gt;Mini Velo&lt;/a&gt; &lt;/li&gt;
         					&lt;li&gt; &lt;a href="#classic-sport" class="list-item"&gt;Classic Sport&lt;/a&gt; &lt;/li&gt;
         					&lt;li&gt; &lt;a href="#single-speed" class="list-item"&gt;Single Speed&lt;/a&gt; &lt;/li&gt;
         					&lt;/ol&gt;
@@ -232,12 +257,14 @@
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
         				<code>
-        					&lt;nav class="bulletted-list"&gt;
-        					&lt;a href="#bikes" class="header-item"&gt;bikes&lt;/a&gt;
-        					&lt;a href="#accessories" class="header-item"&gt;accessories&lt;/a&gt;
-        					&lt;a href="#collaborations" class="header-item"&gt;collaborations&lt;/a&gt;
-        					&lt;a href="#contact" class="header-item"&gt;contact&lt;/a&gt; &lt;
-        					&lt;a href="#mycart" class="header-item"&gt;mycart&lt;/a&gt;
+        					&lt;nav class="topnav" id="myTopnav"&gt;
+        					&lt;a class="button-nav" href="bikes.html"&gt;bikes&lt;/a&gt;
+        					&lt;a class="button-nav" href="accessories.html"&gt;accessories&lt;/a&gt;
+        					&lt;a class="button-nav" href="collaborations.html"&gt;collaborations&lt;/a&gt;
+        					&lt;a class="button-nav" href="contact.html&gt;contact&lt;/a&gt; &lt;
+        					&lt;a class="personal-page" href="account.html"&gt;[ my account&lt;/a&gt;
+        					&lt;a class="personal-page" href="my-cart.html"&gt;my cart ]&lt;/a&gt;
+        					&lt;a class="icon" href="javascript:void(0);" onclick="myFunction()"&gt; &#9776; &lt;/a&gt;
         					&lt;/nav&gt;
         				</code>
 
@@ -248,7 +275,7 @@
 			                <a class="button-nav" href="collaborations.html">collaborations</a>
 			                <a class="button-nav" href="contact.html">contact</a>
 			                <a class="personal-page" href="account.html">[ my account</a>
-			                <a class="personal-page" href="my-cart.html">my cart ] </a>
+			                <a class="personal-page" href="my-cart.html">my cart ]</a>
 			                <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 						</nav>
 
@@ -260,13 +287,20 @@
 
 		        	<h3 class="sg-subheader">Sample code:</h3>
         				<code>
-        					&lt;ul class="bulletted-list"&gt; &lt;/li&gt;
-        					&lt;li&gt; &lt;a href="#bikes" class="header-item"&gt;bikes&lt;/a&gt; &lt;/li&gt;
-        					&lt;li&gt; &lt;a href="#accessories" class="header-item"&gt;accessories&lt;/a&gt; &lt;/li&gt;
-        					&lt;li&gt; &lt;a href="#collaborations" class="header-item"&gt;collaborations&lt;/a&gt; &lt;/li&gt;
-        					&lt;li&gt; &lt;a href="#contact" class="header-item"&gt;contact&lt;/a&gt; &lt; &lt;/li&gt;
-        					&lt;li&gt; &lt;a href="#mycart" class="header-item"&gt;mycart&lt;/a&gt; &lt;/li&gt;
-        					&lt;/ul&gt;
+        					&lt;a href="product.html"&gt;
+        					&lt;img class="product-picture" src="img/model-single-speed.png" alt="single speed bike model"&gt;
+        					&lt;p class="product-caption"&gt; Single Speed &lt;/p&gt;
+        					&lt;/a&gt;
+
+        					&lt;a href="product.html"&gt;
+        					&lt;img class="product-picture" src="img/model-sport.png" alt="sport bike model"&gt;
+        					&lt;p class="product-caption"&gt; Sport &lt;/p&gt;
+        					&lt;/a&gt;
+
+        					&lt;a href="product.html"&gt;
+        					&lt;img class="product-picture" src="img/model-mini-velo.png" alt="mini velo bike model"&gt;
+        					&lt;p class="product-caption"&gt; Mini Velo &lt;/p&gt;
+        					&lt;/a&gt;
         				</code>
 
 					<h3 class="sg-subheader">Rendered element:</h3>
@@ -274,21 +308,21 @@
 
 			        <div class="col-4of12 col-product-pic">
                   		<a href="product.html">
-                  		<img class="product-picture" src="img/model-single-speed.png" alt="logo">
+                  		<img class="product-picture" src="img/model-single-speed.png" alt="single speed bike model">
                       	<p class="product-caption">Single Speed</p>
                   		</a>
               		</div>
 
               		<div class="col-4of12 col-product-pic">
                   		<a href="product.html">
-            		    <img class="product-picture" src="img/model-sport.png" alt="logo">
+            		    <img class="product-picture" src="img/model-sport.png" alt="sport bike model">
                       	<p class="product-caption">Sport</p>
                   		</a>
               		</div>
 
               		<div class="col-4of12 col-product-pic">
                   		<a href=".html">
-              		    <img class="product-picture" src="img/model-mini-velo.png" alt="logo">
+              		    <img class="product-picture" src="img/model-mini-velo.png" alt="mini velo bike model">
                       	<p class="product-caption">Mini Velo</p>
                   		</a>
               		</div>
@@ -303,9 +337,7 @@
 		      		<p>To create an organized space, we used twelve column grid that was helpful to work with while creating a page layout.</p>
 
 		      		<figure>
-						<img src="img/page-desktop-grid.jpg" alt="Twelve-column grid desktop layout">
-						<img src="img/page-tablet-grid.jpg" alt="Twelve-column grid tablet layout">
-						<img src="img/page-mobile-grid.jpg" alt="Twelve-column grid mobile layout">
+						<img src="img/grid.png" alt="Twelve-column grid desktop, tablet, and phone layouts">
 					</figure>
 
 			  </section>
