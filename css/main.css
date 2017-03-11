@@ -302,11 +302,13 @@ hr.line{
 
 /* choose by page*/
 
-.col-choose-by{
+/*.col-choose-by{
+margin-bottom: 2rem;
 position: fixed;
 bottom: 5rem;
 left:52rem;
-}
+}*/
+
 /* choose by colour page*/
 
 
