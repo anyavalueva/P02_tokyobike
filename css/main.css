@@ -237,16 +237,18 @@ hr.line{
 
 .product-picture {
   display: block;
-  margin: auto;
+/*  margin: auto;*/
   max-width: 100%;
   height: auto;
+
 }
 
 .product-thumbnail {
   display: block;
-  margin: auto;
+/*  margin: auto;*/
   max-width: 100%;
   height: auto;
+  
 }
 
 .product-thumbnail:hover {
@@ -276,7 +278,7 @@ hr.line{
 .thumbnail-row {
   max-width: 100%;
   height: auto; 
-  margin: 3.1rem 5rem 0 4rem;
+  margin: 3.1rem 3rem 0 4rem;
 }
 
 .product-description {
