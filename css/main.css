@@ -589,15 +589,15 @@ display: none;
 /*footer*/
 hr.line-footer{
   margin: 2rem 0 2rem 0;
-  border: 0.5px solid grey; 
+  border: 0.5px solid lightgrey; 
 }
 
 .footer{
   margin: 4rem 0 2rem 0;
 }
 
-.footer-citations{
-  width: 100%;
+.footer-fixed{
+  width: 97.8%;
   bottom: 2rem;
   position: absolute;
 }
