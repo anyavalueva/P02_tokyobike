@@ -217,7 +217,7 @@ hr.line{
   border: 3px solid black; 
 }
 
-.checkout{
+.checkout-button{
   margin-top: 2rem;
 }
 
@@ -240,6 +240,17 @@ hr.line{
   margin: auto;
   max-width: 100%;
   height: auto;
+}
+
+.product-thumbnail {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-thumbnail:hover {
+  opacity:0.5;
 }
 
 
@@ -291,12 +302,14 @@ hr.line{
 
 /* choose by page*/
 
-/*.homepage-concept{
-  position: fixed;
-  top: 50%;
-}*/
-
+.col-choose-by{
+position: fixed;
+bottom: 5rem;
+left:52rem;
+}
 /* choose by colour page*/
+
+
 .colour-swatch {
   max-width: 85%;
   height: auto;
@@ -339,6 +352,27 @@ hr.line{
 
 .by-model:hover, .button-submit:focus {
   color: rgb(253,106,79);
+}
+
+.by-category {
+  color: grey;
+}
+
+.by-category-active {
+  color: rgb(253,106,79);
+  
+}
+
+.by-category:hover {
+  text-decoration: underline;
+  color: rgb(253,106,79);
+
+}
+
+.by-category-active:hover  {
+  text-decoration: underline;
+  color: grey;
+  
 }
 
 
