@@ -114,6 +114,11 @@
 	}
 
 
+	.homepage-concept{
+	  margin: 0rem;
+	}
+
+
 }
 
 @media  (max-width: 54.68em) {
@@ -126,19 +131,16 @@
   		width: 50%;
 	}
 
-
-	.col-pic-left{
-		width: 100%;
+	.homepage-picture-left{
+	padding-right: 1rem;
 	}
 
-	.col-pic-right{
-		width: 100%;
+	.homepage-picture-right-top{
+	margin-bottom: 1rem;
 	}
 
-	.homepage-picture-left {
-  		padding-right: 0;
-  		padding-bottom: 3rem;
-  
+	.col-concept{
+
 	}
 
 	.col-map{
@@ -243,12 +245,8 @@
 		width: 80%
 	}
 
-}
-
-@media (max-width: 36.5em) {
-
-	#header{
-  		padding: 3rem 0.3rem 4rem 0.2rem;
+	.col-collab {
+		width:100%;
 	}
 
 	.hidden-section {
@@ -264,16 +262,11 @@
 		display: none;
 	}
 
-
-
-	.col-product-pic{
-  		width: 100%;
-	}
-
-/*hamburger menu*/
+	/*hamburger menu*/
 
   	.topnav a {
   	display: none;
+  	padding-bottom: 1rem;
  	}
 
 
@@ -291,6 +284,7 @@
     float: none;
     display: block;
     text-align: left;
+    padding-bottom: 1rem;
   	}
 
   	.col-nav.responsive {
@@ -302,6 +296,35 @@
 	display: block;
 	width: 20%;
 	}
+
+
+
+}
+
+@media (max-width: 36.5em) {
+
+	#header{
+  		padding: 3rem 0.3rem 4rem 0.2rem;
+	}
+
+	.col-pic-left{
+		width: 100%;
+	}
+
+	.col-pic-right{
+		width: 100%;
+	}
+
+
+	.col-product-pic{
+  		width: 100%;
+	}
+
+	.homepage-picture-left{
+	padding-right: 0rem;
+	}
+
+
 
 
 /*my cart*/
@@ -375,7 +398,6 @@
 
 	.homepage-picture-left {
 	  padding-bottom: 1rem;
-	  
 	}
 
 	.homepage-picture-right-top {
